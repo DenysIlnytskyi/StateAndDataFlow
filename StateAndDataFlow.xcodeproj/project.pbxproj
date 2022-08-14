@@ -13,6 +13,9 @@
 		86B1C19E28A837F500E3B259 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86B1C19D28A837F500E3B259 /* Preview Assets.xcassets */; };
 		86B1C1A528A838B100E3B259 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1C1A428A838B100E3B259 /* DataManager.swift */; };
 		86B1C1A728A839CB00E3B259 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1C1A628A839CB00E3B259 /* UserManager.swift */; };
+		86B1C1A928A83F7F00E3B259 /* RegisterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1C1A828A83F7F00E3B259 /* RegisterView.swift */; };
+		86B1C1AB28A91E9300E3B259 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1C1AA28A91E9300E3B259 /* ButtonView.swift */; };
+		86B1C1AD28A91FD300E3B259 /* ButtonAppearanceModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B1C1AC28A91FD300E3B259 /* ButtonAppearanceModifier.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,9 @@
 		86B1C19D28A837F500E3B259 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		86B1C1A428A838B100E3B259 /* DataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
 		86B1C1A628A839CB00E3B259 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		86B1C1A828A83F7F00E3B259 /* RegisterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterView.swift; sourceTree = "<group>"; };
+		86B1C1AA28A91E9300E3B259 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		86B1C1AC28A91FD300E3B259 /* ButtonAppearanceModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonAppearanceModifier.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +65,9 @@
 				86B1C19828A837F200E3B259 /* ContentView.swift */,
 				86B1C1A428A838B100E3B259 /* DataManager.swift */,
 				86B1C1A628A839CB00E3B259 /* UserManager.swift */,
+				86B1C1AA28A91E9300E3B259 /* ButtonView.swift */,
+				86B1C1AC28A91FD300E3B259 /* ButtonAppearanceModifier.swift */,
+				86B1C1A828A83F7F00E3B259 /* RegisterView.swift */,
 				86B1C19A28A837F500E3B259 /* Assets.xcassets */,
 				86B1C19C28A837F500E3B259 /* Preview Content */,
 			);
@@ -144,8 +153,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				86B1C19928A837F200E3B259 /* ContentView.swift in Sources */,
+				86B1C1A928A83F7F00E3B259 /* RegisterView.swift in Sources */,
+				86B1C1AB28A91E9300E3B259 /* ButtonView.swift in Sources */,
 				86B1C1A528A838B100E3B259 /* DataManager.swift in Sources */,
 				86B1C1A728A839CB00E3B259 /* UserManager.swift in Sources */,
+				86B1C1AD28A91FD300E3B259 /* ButtonAppearanceModifier.swift in Sources */,
 				86B1C19728A837F200E3B259 /* StateAndDataFlowApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
