@@ -17,6 +17,9 @@ struct TimerView: View {
             Text("Hi, \(userManager.user.name)")
                 .font(.largeTitle)
                 .offset(x: 0, y: 200)
+            Text("\(timer.counter)")
+                .font(.largeTitle)
+                .offset(x: 0, y: 200)
             
             Spacer()
             
@@ -39,5 +42,6 @@ struct TimerView: View {
 struct TimerView_Previews: PreviewProvider {
     static var previews: some View {
         TimerView()
+            .environmentObject(UserManager())
     }
 }
